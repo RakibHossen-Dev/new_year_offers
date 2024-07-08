@@ -403,7 +403,7 @@ h1 {
   width: 350px;
   /* height: 40px; */
   border: none;
-  padding: 10px 30px;
+  padding: 13px 35px;
 }
 .subscribe-btn {
   padding: 10px 30px;
@@ -413,4 +413,52 @@ h1 {
   font-size: 18px;
   font-family: Inter;
   border-radius: 0 50px 50px 0;
+}
+
+.footer-container {
+  width: 1320px;
+  height: 500px;
+  background: rgb(7, 2, 17);
+  margin: 0 auto;
+}
+.contact {
+  display: flex;
+  color: #fff;
+}
+.footer-first-section {
+  display: flex;
+  color: #fff;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.all-contact,
+.footer-road {
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+hr {
+  width: 90%;
+  margin: 0 auto;
+}
+.social-icon img {
+  width: 50px;
+  height: 50px;
+}
+.social-icon {
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer-end-text {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  color: #ffff;
+  justify-content: space-between;
+  height: 30px;
+  margin-top: 50px;
 }
